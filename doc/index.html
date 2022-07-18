@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>s7_move_asm/main_asm</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <h1>s7_move_asm/main_asm</h1>
+        <hr>
+
+        <h1>Purchase Part</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                    <td>unit price</td>
+                    <td>distributor</td>
+                    <td>desctiption</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >s7_mdf_parts/base_plate</td>
+                    <td >1</td>
+                    <td>0.0 yen</td>
+                    <td>None</td>
+                    <td>laser cut with MDF 5.5mm</td>
+                </tr>
+                
+                <tr>
+                    <td >pololu_parts/bracket_1084</td>
+                    <td >2</td>
+                    <td>612.5 yen</td>
+                    <td>https://store.shopping.yahoo.co.jp/suzakulab/pololu-1084.html</td>
+                    <td>L angle motor bracket</td>
+                </tr>
+                
+                <tr>
+                    <td >pololu_parts/motor_2823</td>
+                    <td >2</td>
+                    <td>6135.0 yen</td>
+                    <td>https://store.shopping.yahoo.co.jp/suzakulab/pololu-2823.html</td>
+                    <td>37mmD motor 30:1</td>
+                </tr>
+                
+                <tr>
+                    <td >pololu_parts/tier_3281</td>
+                    <td >2</td>
+                    <td>1225.0 yen</td>
+                    <td>https://store.shopping.yahoo.co.jp/suzakulab/pololu-3281.html</td>
+                    <td>144mm tier</td>
+                </tr>
+                
+                <tr>
+                    <td >mech_parts/susaj_ts4_75u</td>
+                    <td >1</td>
+                    <td>3403.0 yen</td>
+                    <td>https://jp.misumi-ec.com/vona2/detail/221000601473/?HissuCode=SUSAJ-TS4-75U</td>
+                    <td>spring caster</td>
+                </tr>
+                
+                <tr>
+                    <td >s7_mdf_parts/sidewall_plate1</td>
+                    <td >1</td>
+                    <td>0.0 yen</td>
+                    <td>None</td>
+                    <td>laser cut with MDF 4mm</td>
+                </tr>
+                
+                <tr>
+                    <td >s7_mdf_parts/sidewall_plate2L</td>
+                    <td >1</td>
+                    <td>0.0 yen</td>
+                    <td>None</td>
+                    <td>laser cut with MDF 4mm</td>
+                </tr>
+                
+                <tr>
+                    <td >s7_mdf_parts/sidewall_plate2R</td>
+                    <td >1</td>
+                    <td>0.0 yen</td>
+                    <td>None</td>
+                    <td>laser cut with MDF 4mm</td>
+                </tr>
+                
+                <tr>
+                    <td >s7_mdf_parts/sidewall_plate3</td>
+                    <td >1</td>
+                    <td>0.0 yen</td>
+                    <td>None</td>
+                    <td>laser cut with MDF 4mm</td>
+                </tr>
+                
+                <tr>
+                    <td >s7_mdf_parts/bottom_plate</td>
+                    <td >1</td>
+                    <td>0.0 yen</td>
+                    <td>None</td>
+                    <td>laser cut with MDF 5.5mm</td>
+                </tr>
+                
+                <tr>
+                    <td >s7_mdf_parts/bumper_a</td>
+                    <td >4</td>
+                    <td>0.0 yen</td>
+                    <td>None</td>
+                    <td>laser cut with MDF 4mm</td>
+                </tr>
+                
+                <tr>
+                    <td >s7_mdf_parts/bumper_b</td>
+                    <td >6</td>
+                    <td>0.0 yen</td>
+                    <td>None</td>
+                    <td>laser cut with MDF 4mm</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nabe_25</td>
+                    <td >6</td>
+                    <td>5.3 yen</td>
+                    <td>https://www.monotaro.com/p/3814/6674/</td>
+                    <td>sems screw is recommended</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nut_2</td>
+                    <td >14</td>
+                    <td>18.0 yen</td>
+                    <td>https://www.monotaro.com/p/4221/7567/</td>
+                    <td>type-2</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nabe_20</td>
+                    <td >8</td>
+                    <td>4.6 yen</td>
+                    <td>https://www.monotaro.com/p/3814/6665/</td>
+                    <td>sems screw is recommended</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/hspacer_1</td>
+                    <td >8</td>
+                    <td>12.5 yen</td>
+                    <td>https://www.monotaro.com/p/1116/9165/</td>
+                    <td>None</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/hspacer_8</td>
+                    <td >8</td>
+                    <td>20.9 yen</td>
+                    <td>https://www.monotaro.com/p/2901/9123/</td>
+                    <td>None</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/washer_8</td>
+                    <td >8</td>
+                    <td>6.2 yen</td>
+                    <td>https://www.monotaro.com/p/4217/8647/</td>
+                    <td>8x0.5mm</td>
+                </tr>
+                
+                <tr>
+                    <td >elec_parts/d2fw_g</td>
+                    <td >2</td>
+                    <td>449.0 yen</td>
+                    <td>https://www.monotaro.com/p/4643/1716/</td>
+                    <td>micro switch</td>
+                </tr>
+                
+                <tr>
+                    <td >m4_screw/nabe_15</td>
+                    <td >2</td>
+                    <td>6.8 yen</td>
+                    <td>https://www.monotaro.com/p/0550/7381/</td>
+                    <td>sems screw is recommended</td>
+                </tr>
+                
+                <tr>
+                    <td >m4_screw/nut_2</td>
+                    <td >2</td>
+                    <td>18.0 yen</td>
+                    <td>https://www.monotaro.com/p/4221/7567/</td>
+                    <td>type-2</td>
+                </tr>
+                
+            </tbody>
+        </table>
+        <hr>
+        <hr>
+
+        <h1>Prepair Part</h1>
+        <hr>
+        <hr>
+
+        <h1>Assembly Part</h1>
+
+        
+        <h2>s7_move_asm/bumper_right_asm x1</h2>
+
+        
+        <h3>step 1</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >s7_mdf_parts/bumper_a</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/bumper_right_asm/asm_0_0.gif" width="500">
+        
+
+        
+        <h3>step 2</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >s7_mdf_parts/bumper_b</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >s7_mdf_parts/bumper_a</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >s7_mdf_parts/bumper_b</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >s7_mdf_parts/bumper_b</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/bumper_right_asm/asm_1_0.gif" width="500">
+        
+
+        
+        <h3>step 3</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >m3_screw/nabe_25</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nabe_25</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nabe_25</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nut_2</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nut_2</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nut_2</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/bumper_right_asm/asm_2_0.gif" width="500">
+        
+        <img src="s7_move_asm/bumper_right_asm/asm_2_1.gif" width="500">
+        
+
+        
+        <hr>
+        
+        <h2>s7_move_asm/bumper_left_asm x1</h2>
+
+        
+        <h3>step 1</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >s7_mdf_parts/bumper_a</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/bumper_left_asm/asm_0_0.gif" width="500">
+        
+
+        
+        <h3>step 2</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >s7_mdf_parts/bumper_b</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >s7_mdf_parts/bumper_a</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >s7_mdf_parts/bumper_b</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >s7_mdf_parts/bumper_b</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/bumper_left_asm/asm_1_0.gif" width="500">
+        
+
+        
+        <h3>step 3</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >m3_screw/nabe_25</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nabe_25</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nabe_25</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nut_2</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nut_2</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nut_2</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/bumper_left_asm/asm_2_0.gif" width="500">
+        
+        <img src="s7_move_asm/bumper_left_asm/asm_2_1.gif" width="500">
+        
+
+        
+        <hr>
+        
+        <h2>s7_move_asm/bottom_asm x1</h2>
+
+        
+        <h3>step 1</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >s7_mdf_parts/bottom_plate</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/bottom_asm/asm_0_0.gif" width="500">
+        
+
+        
+        <h3>step 2</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >s7_move_asm/bumper_left_asm</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nabe_20</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/hspacer_1</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/hspacer_8</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/washer_8</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nut_2</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nabe_20</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/hspacer_1</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/hspacer_8</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/washer_8</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nut_2</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nabe_20</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/hspacer_1</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/hspacer_8</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/washer_8</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nut_2</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nabe_20</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/hspacer_1</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/hspacer_8</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/washer_8</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nut_2</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/bottom_asm/asm_1_0.gif" width="500">
+        
+        <img src="s7_move_asm/bottom_asm/asm_1_1.gif" width="500">
+        
+
+        
+        <h3>step 3</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >elec_parts/d2fw_g</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m4_screw/nabe_15</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m4_screw/nut_2</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/bottom_asm/asm_2_0.gif" width="500">
+        
+        <img src="s7_move_asm/bottom_asm/asm_2_1.gif" width="500">
+        
+
+        
+        <h3>step 4</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >s7_move_asm/bumper_right_asm</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nabe_20</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/hspacer_1</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/hspacer_8</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/washer_8</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nut_2</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nabe_20</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/hspacer_1</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/hspacer_8</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/washer_8</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nut_2</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nabe_20</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/hspacer_1</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/hspacer_8</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/washer_8</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nut_2</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nabe_20</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/hspacer_1</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/hspacer_8</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/washer_8</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m3_screw/nut_2</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/bottom_asm/asm_3_0.gif" width="500">
+        
+        <img src="s7_move_asm/bottom_asm/asm_3_1.gif" width="500">
+        
+
+        
+        <h3>step 5</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >elec_parts/d2fw_g</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m4_screw/nabe_15</td>
+                    <td >1</td>
+                </tr>
+                
+                <tr>
+                    <td >m4_screw/nut_2</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/bottom_asm/asm_4_0.gif" width="500">
+        
+        <img src="s7_move_asm/bottom_asm/asm_4_1.gif" width="500">
+        
+
+        
+        <hr>
+        
+        <h2>s7_move_asm/sidewall_asm x1</h2>
+
+        
+        <h3>step 1</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >s7_mdf_parts/sidewall_plate1</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/sidewall_asm/asm_0_0.gif" width="500">
+        
+
+        
+        <h3>step 2</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >s7_mdf_parts/sidewall_plate2L</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/sidewall_asm/asm_1_0.gif" width="500">
+        
+
+        
+        <h3>step 3</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >s7_mdf_parts/sidewall_plate2R</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/sidewall_asm/asm_2_0.gif" width="500">
+        
+
+        
+        <h3>step 4</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >s7_mdf_parts/sidewall_plate3</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/sidewall_asm/asm_3_0.gif" width="500">
+        
+
+        
+        <hr>
+        
+        <h2>s7_move_asm/motor_asm x2</h2>
+
+        
+        <h3>step 1</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >pololu_parts/bracket_1084</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/motor_asm/asm_0_0.gif" width="500">
+        
+
+        
+        <h3>step 2</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >pololu_parts/motor_2823</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/motor_asm/asm_1_0.gif" width="500">
+        
+
+        
+        <h3>step 3</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >pololu_parts/tier_3281</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/motor_asm/asm_2_0.gif" width="500">
+        
+        <img src="s7_move_asm/motor_asm/asm_2_1.gif" width="500">
+        
+
+        
+        <hr>
+        
+        <h2>s7_move_asm/base_asm x1</h2>
+
+        
+        <h3>step 1</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >s7_mdf_parts/base_plate</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/base_asm/asm_0_0.gif" width="500">
+        
+
+        
+        <h3>step 2</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >s7_move_asm/motor_asm</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/base_asm/asm_1_0.gif" width="500">
+        
+        <img src="s7_move_asm/base_asm/asm_1_1.gif" width="500">
+        
+
+        
+        <h3>step 3</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >s7_move_asm/motor_asm</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/base_asm/asm_2_0.gif" width="500">
+        
+        <img src="s7_move_asm/base_asm/asm_2_1.gif" width="500">
+        
+
+        
+        <h3>step 4</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >mech_parts/susaj_ts4_75u</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/base_asm/asm_3_0.gif" width="500">
+        
+        <img src="s7_move_asm/base_asm/asm_3_1.gif" width="500">
+        
+
+        
+        <hr>
+        
+        <h2>s7_move_asm/main_asm x1</h2>
+
+        
+        <h3>step 1</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >s7_move_asm/base_asm</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/main_asm/asm_0_0.gif" width="500">
+        
+
+        
+        <h3>step 2</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >s7_move_asm/sidewall_asm</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/main_asm/asm_1_0.gif" width="500">
+        
+
+        
+        <h3>step 3</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td >s7_move_asm/bottom_asm</td>
+                    <td >1</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        
+        <img src="s7_move_asm/main_asm/asm_2_0.gif" width="500">
+        
+        <img src="s7_move_asm/main_asm/asm_2_1.gif" width="500">
+        
+
+        
+        <hr>
+        
+
+        <hr>
+        <p>powered by roborecipe</p>
+
+    </body>
+</html>
