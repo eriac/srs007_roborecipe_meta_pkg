@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+    <name>sidewall_asm</name>
+    <descrption>
+        assembly
+    </descrption>
+    <step>
+		<view from="300 200 200" to="0 0 10" angle="30" />
+        <component pkg="s7_mdf_parts" type="sidewall_plate1">
+            <origin xyz="68 0 0" rpy="0 0 0"/>
+            <move xyz="0 0 0"/>
+        </component>
+    </step>
+    <step>
+		<view from="300 200 200" to="0 0 10" angle="30" />
+        <component pkg="s7_mdf_parts" type="sidewall_plate2L">
+            <origin xyz="0 128 50" rpy="0 0 0"/>
+            <move xyz="0 10 0"/>
+        </component>
+    </step>
+    <step>
+		<view from="300 200 200" to="0 0 10" angle="30" />
+        <component pkg="s7_mdf_parts" type="sidewall_plate2R">
+            <origin xyz="0 -128 50" rpy="0 0 0"/>
+            <move xyz="0 -10 0"/>
+        </component>
+    </step>
+    <step>
+		<view from="-300 200 200" to="0 0 10" angle="30" />
+        <component pkg="s7_mdf_parts" type="sidewall_plate3">
+            <origin xyz="-148 0 0" rpy="0 0 180"/>
+            <move xyz="-10 0 0"/>
+        </component>
+    </step>
+</assembly>

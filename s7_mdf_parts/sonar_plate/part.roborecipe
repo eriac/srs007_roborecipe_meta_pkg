@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>sonar_plate</name>
+    <version>0.0</version>
+    <stl_file>sonar_plate/sonar_plate.stl</stl_file>
+    <price>0.0</price>
+    <distributor></distributor>
+    <description>laser cut with MDF 4mm</description>
+</part>

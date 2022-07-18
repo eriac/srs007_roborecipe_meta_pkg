@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>motor_2823</name>
+    <version>0.0</version>
+    <stl_file>motor_2823/pololu_2823.stl</stl_file>
+    <price>6135.0</price>
+    <distributor>https://store.shopping.yahoo.co.jp/suzakulab/pololu-2823.html</distributor>
+    <description>37mmD motor 30:1</description>
+</part>

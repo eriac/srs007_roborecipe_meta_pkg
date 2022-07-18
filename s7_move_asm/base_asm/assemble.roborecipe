@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+    <name>base_asm</name>
+    <descrption>
+        assembly
+    </descrption>
+    <step>
+		<view from="300 200 200" to="0 0 10" angle="30" />
+        <component pkg="s7_mdf_parts" type="base_plate">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <move xyz="0 0 0"/>
+        </component>
+    </step>
+    <step>
+		<view from="300 200 200" to="0 0 10" angle="30" />
+		<view from="300 200 -200" to="0 0 10" angle="30" />
+        <component pkg="s7_move_asm" type="motor_asm">
+            <origin xyz="0 157.4 0" rpy="0 0 90"/>
+            <move xyz="0 0 -15"/>
+        </component>
+    </step>
+    <step>
+		<view from="300 -200 200" to="0 0 10" angle="30" />
+		<view from="300 -200 -200" to="0 0 10" angle="30" />
+        <component pkg="s7_move_asm" type="motor_asm">
+            <origin xyz="0 -157.4 0" rpy="0 0 -90"/>
+            <move xyz="0 0 -15"/>
+        </component>
+    </step>
+    <step>
+		<view from="-400 200 200" to="-200 0 0" angle="30" />
+		<view from="-400 200 -200" to="-200 0 0" angle="30" />
+        <component pkg="mech_parts" type="susaj_ts4_75u">
+            <origin xyz="-230 0 0" rpy="0 0 0"/>
+            <move xyz="0 0 -15"/>
+        </component>
+    </step>
+</assembly>

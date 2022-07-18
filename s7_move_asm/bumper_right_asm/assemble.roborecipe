@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+    <name>bumper_right_asm</name>
+    <descrption>
+        assembly
+    </descrption>
+    <step>
+		<view from="350 0 150" to="150 0 0" angle="30" />
+        <component pkg="s7_mdf_parts" type="bumper_a">
+            <origin xyz="0 0 4" rpy="180 0 0"/>
+            <move xyz="0 0 0"/>
+        </component>
+    </step>
+    <step>
+		<view from="350 50 50" to="150 0 0" angle="30" />
+
+        <component pkg="s7_mdf_parts" type="bumper_b">
+            <origin xyz="0 0 8" rpy="0 0 0"/>
+            <move xyz="0 0 28"/>
+        </component>
+        <component pkg="s7_mdf_parts" type="bumper_a">
+            <origin xyz="0 0 8" rpy="180 0 0"/>
+            <move xyz="0 0 14"/>
+        </component>
+        <component pkg="s7_mdf_parts" type="bumper_b">
+            <origin xyz="0 0 -4" rpy="0 0 0"/>
+            <move xyz="0 0 -14"/>
+        </component>
+        <component pkg="s7_mdf_parts" type="bumper_b">
+            <origin xyz="0 0 -8" rpy="0 0 0"/>
+            <move xyz="0 0 -28"/>
+        </component>
+    </step>
+    <step>
+		<view from="250 150 100" to="180 20 0" angle="30" />
+		<view from="250 150 -100" to="180 20 0" angle="30" />
+
+        <component pkg="m3_screw" type="nabe_25">
+            <origin xyz="202 0 12" rpy="0 0 0"/>
+            <move xyz="0 0 35"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_25">
+            <origin xyz="183.1 85.4 12" rpy="0 0 0"/>
+            <move xyz="0 0 35"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_25">
+            <origin xyz="183.1 -85.4 12" rpy="0 0 0"/>
+            <move xyz="0 0 35"/>
+        </component>
+
+        <component pkg="m3_screw" type="nut_2">
+            <origin xyz="202 0 -8" rpy="180 0 0"/>
+            <move xyz="0 0 -10"/>
+        </component>
+        <component pkg="m3_screw" type="nut_2">
+            <origin xyz="183.1 85.4 -8" rpy="180 0 0"/>
+            <move xyz="0 0 -10"/>
+        </component>
+        <component pkg="m3_screw" type="nut_2">
+            <origin xyz="183.1 -85.4 -8" rpy="180 0 0"/>
+            <move xyz="0 0 -10"/>
+        </component>
+    </step>
+</assembly>

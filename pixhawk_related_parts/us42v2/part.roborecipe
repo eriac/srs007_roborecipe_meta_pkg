@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>us42v2</name>
+    <version>0.0</version>
+    <stl_file>us42v2/us42v2.stl</stl_file>
+    <price>828.0</price>
+    <distributor>https://ja.aliexpress.com/item/4000459333991.html</distributor>
+    <description>i2c sonar</description>
+</part>

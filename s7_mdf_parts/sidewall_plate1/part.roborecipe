@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>sidewall_plate1</name>
+    <version>0.0</version>
+    <stl_file>sidewall_plate1/plate1.stl</stl_file>
+    <price>0.0</price>
+    <distributor></distributor>
+    <description>laser cut with MDF 4mm</description>
+</part>

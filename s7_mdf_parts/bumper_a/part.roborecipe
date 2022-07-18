@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>bumper_a</name>
+    <version>0.0</version>
+    <stl_file>bumper_a/bumper_a.stl</stl_file>
+    <price>0.0</price>
+    <distributor></distributor>
+    <description>laser cut with MDF 4mm</description>
+</part>

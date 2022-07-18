@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>bottom_plate</name>
+    <version>0.0</version>
+    <stl_file>bottom_plate/bottom_plate.stl</stl_file>
+    <price>0.0</price>
+    <distributor></distributor>
+    <description>laser cut with MDF 5.5mm</description>
+</part>

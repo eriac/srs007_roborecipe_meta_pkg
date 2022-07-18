@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+    <name>sonar_asm</name>
+    <descrption>
+        assembly
+    </descrption>
+    <step>
+		<view from="100 50 50" to="-20 0 0" angle="30" />
+        <component pkg="s7_mdf_parts" type="sonar_plate">
+            <origin xyz="4 0 0" rpy="0 -90 0"/>
+            <move xyz="0 0 0"/>
+        </component>
+    </step>
+    <step>
+		<view from="100 50 50" to="-20 0 0" angle="30" />
+		<view from="-100 50 50" to="-20 0 0" angle="30" />
+        <component pkg="m3_screw" type="ffspacer_6">
+            <origin xyz="0 13 15" rpy="0 -90 0"/>
+            <move xyz="-15 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="ffspacer_6">
+            <origin xyz="0 -13 15" rpy="0 -90 0"/>
+            <move xyz="-15 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="4 13 15" rpy="0 90 0"/>
+            <move xyz="20 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="4 -13 15" rpy="0 90 0"/>
+            <move xyz="20 0 0"/>
+        </component>
+    </step>
+    <step>
+		<view from="100 50 50" to="-20 0 0" angle="30" />
+		<view from="-100 50 50" to="-20 0 0" angle="30" />
+        <component pkg="m3_screw" type="ck-100">
+            <origin xyz="-4 21 0" rpy="0 0 0"/>
+            <move xyz="-15 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="ck-100">
+            <origin xyz="-9 -21 0" rpy="0 0 0"/>
+            <move xyz="-15 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="4 21 13.5" rpy="0 90 0"/>
+            <move xyz="20 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="4 -21 13.5" rpy="0 90 0"/>
+            <move xyz="20 0 0"/>
+        </component>
+    </step>
+    <step>
+		<view from="-100 50 50" to="-20 0 0" angle="30" />
+        <component pkg="pixhawk_related_parts" type="us42v2">
+            <origin xyz="-8 0 15" rpy="0 90 0"/>
+            <move xyz="-15 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="-8 13 15" rpy="0 -90 0"/>
+            <move xyz="-30 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="-8 -13 15" rpy="0 -90 0"/>
+            <move xyz="-30 0 0"/>
+        </component>
+    </step>
+</assembly>

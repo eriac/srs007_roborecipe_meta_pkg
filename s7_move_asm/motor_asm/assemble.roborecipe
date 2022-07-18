@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+    <name>motor_asm</name>
+    <descrption>
+        assembly
+    </descrption>
+    <step>
+		<view from="100 60 50" to="0 0 -10" angle="30" />
+        <component pkg="pololu_parts" type="bracket_1084">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <move xyz="0 0 0"/>
+        </component>
+    </step>
+    <step>
+		<view from="100 60 50" to="0 0 -10" angle="30" />
+        <component pkg="pololu_parts" type="motor_2823">
+            <origin xyz="-2 0 -20.8" rpy="0 0 0"/>
+            <move xyz="-20 0 0"/>
+        </component>
+    </step>
+    <step>
+		<view from="100 60 50" to="0 0 -10" angle="30" />
+		<view from="-100 60 50" to="0 0 -10" angle="30" />
+        <component pkg="pololu_parts" type="tier_3281">
+            <origin xyz="22 0 -20.8" rpy="0 90 0"/>
+            <move xyz="30 0 0"/>
+        </component>
+    </step>
+
+
+</assembly>
