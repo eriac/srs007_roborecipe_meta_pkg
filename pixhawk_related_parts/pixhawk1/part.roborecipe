@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>pixhawk1</name>
+    <version>0.0</version>
+    <stl_file>pixhawk1/pixhawk1.stl</stl_file>
+    <price>14197.0</price>
+    <distributor>https://ja.aliexpress.com/item/33058886931.html</distributor>
+    <description>flight controller</description>
+</part>

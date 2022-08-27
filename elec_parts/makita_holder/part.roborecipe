@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>makita_holder</name>
+    <version>0.0</version>
+    <stl_file>makita_holder/makita_holder.stl</stl_file>
+    <price>1985.0</price>
+    <distributor>https://www.amazon.co.jp/dp/B08X73Z7RP</distributor>
+    <description>makita battery holder</description>
+</part>

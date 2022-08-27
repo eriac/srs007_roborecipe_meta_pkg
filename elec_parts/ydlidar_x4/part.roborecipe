@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>ydlidar_x4</name>
+    <version>0.0</version>
+    <stl_file>ydlidar_x4/X4.stl</stl_file>
+    <price>12100.0</price>
+    <distributor>https://www.switch-science.com/catalog/5412/</distributor>
+    <description>2d lidar</description>
+</part>

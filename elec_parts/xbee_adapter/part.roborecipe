@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>xbee_adapter</name>
+    <version>0.0</version>
+    <stl_file>xbee_adapter/xbee_adapter.stl</stl_file>
+    <price>337.0</price>
+    <distributor>https://ja.aliexpress.com/item/32850612005.html</distributor>
+    <description>usb serial xbee adapter</description>
+</part>

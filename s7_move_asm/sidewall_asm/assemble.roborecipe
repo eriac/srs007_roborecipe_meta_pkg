@@ -11,18 +11,105 @@
             <move xyz="0 0 0"/>
         </component>
     </step>
+
     <step>
 		<view from="300 200 200" to="0 0 10" angle="30" />
+		<view from="-300 200 200" to="0 0 10" angle="30" />
+        <component pkg="m3_screw" type="ck-100">
+            <origin xyz="63 105 0" rpy="0 0 0"/>
+            <move xyz="-20 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="ck-100">
+            <origin xyz="63 -105 0" rpy="0 0 0"/>
+            <move xyz="-20 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="ck-100">
+            <origin xyz="68 123 25" rpy="-90 0 90"/>
+            <move xyz="-20 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="ck-100">
+            <origin xyz="68 -123 25" rpy="90 0 -90"/>
+            <move xyz="-20 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="72 105 13.5" rpy="0 90 0"/>
+            <move xyz="20 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="72 -105 13.5" rpy="0 90 0"/>
+            <move xyz="20 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="72 123 25" rpy="0 90 0"/>
+            <move xyz="20 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="72 -123 25" rpy="0 90 0"/>
+            <move xyz="20 0 0"/>
+        </component>
+    </step>
+
+    <step>
+		<view from="300 200 200" to="0 0 10" angle="30" />
+		<view from="300 -200 200" to="0 0 10" angle="30" />
         <component pkg="s7_mdf_parts" type="sidewall_plate2L">
             <origin xyz="0 128 50" rpy="0 0 0"/>
             <move xyz="0 10 0"/>
         </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="54.5 132 25" rpy="-90 0 0"/>
+            <move xyz="0 20 0"/>
+        </component>
     </step>
     <step>
 		<view from="300 200 200" to="0 0 10" angle="30" />
+		<view from="300 -200 200" to="0 0 10" angle="30" />
+        <component pkg="m3_screw" type="ck-100">
+            <origin xyz="-60 123 0" rpy="0 0 90"/>
+            <move xyz="0 -20 0"/>
+        </component>
+        <component pkg="m3_screw" type="ck-100">
+            <origin xyz="-148 123 25" rpy="90 0 90"/>
+            <move xyz="0 -20 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="-60 132 13.5" rpy="-90 0 0"/>
+            <move xyz="0 20 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="-134.5 132 25" rpy="-90 0 0"/>
+            <move xyz="0 20 0"/>
+        </component>
+    </step>
+    <step>
+		<view from="300 -200 200" to="0 0 10" angle="30" />
         <component pkg="s7_mdf_parts" type="sidewall_plate2R">
             <origin xyz="0 -128 50" rpy="0 0 0"/>
             <move xyz="0 -10 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="54.5 -132 25" rpy="90 0 0"/>
+            <move xyz="0 -20 0"/>
+        </component>
+    </step>
+    <step>
+		<view from="300 200 200" to="0 0 10" angle="30" />
+		<view from="300 -200 200" to="0 0 10" angle="30" />
+        <component pkg="m3_screw" type="ck-100">
+            <origin xyz="-60 -123 0" rpy="0 0 -90"/>
+            <move xyz="0 20 0"/>
+        </component>
+        <component pkg="m3_screw" type="ck-100">
+            <origin xyz="-148 -123 25" rpy="-90 0 -90"/>
+            <move xyz="0 20 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="-60 -132 13.5" rpy="90 0 0"/>
+            <move xyz="0 -20 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="-134.5 -132 25" rpy="90 0 0"/>
+            <move xyz="0 -20 0"/>
         </component>
     </step>
     <step>
@@ -30,6 +117,34 @@
         <component pkg="s7_mdf_parts" type="sidewall_plate3">
             <origin xyz="-148 0 0" rpy="0 0 180"/>
             <move xyz="-10 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="-152 123 25" rpy="0 -90 0"/>
+            <move xyz="-20 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="-152 -123 25" rpy="0 -90 0"/>
+            <move xyz="-20 0 0"/>
+        </component>
+    </step>
+    <step>
+		<view from="300 200 200" to="0 0 10" angle="30" />
+		<view from="-300 200 200" to="0 0 10" angle="30" />
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="-152 105 13.5" rpy="0 -90 0"/>
+            <move xyz="-20 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="-152 -105 13.5" rpy="0 -90 0"/>
+            <move xyz="-20 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="ck-100">
+            <origin xyz="-143 105 0" rpy="0 0 180"/>
+            <move xyz="20 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="ck-100">
+            <origin xyz="-143 -105 0" rpy="0 0 180"/>
+            <move xyz="20 0 0"/>
         </component>
     </step>
 </assembly>

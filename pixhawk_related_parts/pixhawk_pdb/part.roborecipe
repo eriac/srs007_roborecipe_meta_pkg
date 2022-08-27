@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>pixhawk_pdb</name>
+    <version>0.0</version>
+    <stl_file>pixhawk_pdb/pixhawk_pdb.stl</stl_file>
+    <price>1987.0</price>
+    <distributor>https://ja.aliexpress.com/item/32760587207.html</distributor>
+    <description>power distribution board with shock absorber</description>
+</part>

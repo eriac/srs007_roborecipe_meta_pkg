@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>ydlidar_adapter</name>
+    <version>0.0</version>
+    <stl_file>ydlidar_adapter/ydlidar_adapter.stl</stl_file>
+    <price>0.0</price>
+    <distributor>ydlidar adapter</distributor>
+    <description>usb serial adapter</description>
+</part>
