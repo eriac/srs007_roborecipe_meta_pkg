@@ -17,15 +17,63 @@
             <origin xyz="-2 0 -20.8" rpy="0 0 0"/>
             <move xyz="-20 0 0"/>
         </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="0 7.75 -7.37" rpy="0 90 0"/>
+            <move xyz="20 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="0 -7.75 -7.37" rpy="0 90 0"/>
+            <move xyz="20 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="0 15.5 -20.8" rpy="0 90 0"/>
+            <move xyz="20 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="0 -15.5 -20.8" rpy="0 90 0"/>
+            <move xyz="20 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="0 7.75 -34.22" rpy="0 90 0"/>
+            <move xyz="20 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="0 -7.75 -34.22" rpy="0 90 0"/>
+            <move xyz="20 0 0"/>
+        </component>
+    </step>
+    <step>
+		<view from="100 60 50" to="0 0 -10" angle="30" />
+        <component pkg="pololu_parts" type="hub_2674_a">
+            <origin xyz="8 0 -13.8" rpy="0 90 0"/>
+            <move xyz="20 0 0"/>
+        </component>
     </step>
     <step>
 		<view from="100 60 50" to="0 0 -10" angle="30" />
 		<view from="-100 60 50" to="0 0 -10" angle="30" />
         <component pkg="pololu_parts" type="tier_3281">
-            <origin xyz="22 0 -20.8" rpy="0 90 0"/>
+            <origin xyz="22 0 -13.8" rpy="0 90 0"/>
             <move xyz="30 0 0"/>
         </component>
     </step>
-
-
+    <step>
+		<view from="100 60 50" to="0 0 -10" angle="30" />
+        <component pkg="pololu_parts" type="hub_2674_b">
+            <origin xyz="33 0 -13.8" rpy="0 90 0"/>
+            <move xyz="20 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_20">
+            <origin xyz="35 5.36 -10.7" rpy="0 90 0"/>
+            <move xyz="60 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_20">
+            <origin xyz="35 -5.36 -10.7" rpy="0 90 0"/>
+            <move xyz="60 0 0"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_20">
+            <origin xyz="35 0 -20.0" rpy="0 90 0"/>
+            <move xyz="60 0 0"/>
+        </component>
+    </step>
 </assembly>

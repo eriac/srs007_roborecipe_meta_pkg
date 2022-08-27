@@ -14,17 +14,142 @@
     <step>
 		<view from="300 200 200" to="0 0 10" angle="30" />
 		<view from="300 200 -200" to="0 0 10" angle="30" />
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="73 33 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 15"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="73 -33 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 15"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="31.5 33 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 15"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="31.5 -33 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 15"/>
+        </component>
+        <component pkg="m3_screw" type="ffspacer_6">
+            <origin xyz="73 33 -6" rpy="0 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
+        <component pkg="m3_screw" type="ffspacer_6">
+            <origin xyz="73 -33 -6" rpy="0 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
+        <component pkg="m3_screw" type="ffspacer_6">
+            <origin xyz="31.5 33 -6" rpy="0 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
+        <component pkg="m3_screw" type="ffspacer_6">
+            <origin xyz="31.5 -33 -6" rpy="0 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
+    </step>
+    <step>
+		<view from="300 200 -200" to="0 0 10" angle="30" />
+        <component pkg="elec_parts" type="base_motor_board">
+            <origin xyz="52.25 0 -7.5" rpy="0 0 90"/>
+            <move xyz="0 0 -5"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="73 33 -7.5" rpy="180 0 0"/>
+            <move xyz="0 0 -15"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="73 -33 -7.5" rpy="180 0 0"/>
+            <move xyz="0 0 -15"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="31.5 33 -7.5" rpy="180 0 0"/>
+            <move xyz="0 0 -15"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="31.5 -33 -7.5" rpy="180 0 0"/>
+            <move xyz="0 0 -15"/>
+        </component>
+    </step>
+
+    <step>
+		<view from="300 200 200" to="0 0 10" angle="30" />
+		<view from="300 200 -200" to="0 0 10" angle="30" />
         <component pkg="s7_move_asm" type="motor_asm">
             <origin xyz="0 157.4 0" rpy="0 0 90"/>
             <move xyz="0 0 -15"/>
         </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="15.6 149.05 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 10"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="-15.6 149.05 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 10"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="15.6 110.95 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 10"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="-15.6 110.95 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 10"/>
+        </component>
+        <component pkg="m3_screw" type="nut_2">
+            <origin xyz="15.6 149.05 -4" rpy="0 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
+        <component pkg="m3_screw" type="nut_2">
+            <origin xyz="-15.6 149.05 -4" rpy="0 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
+        <component pkg="m3_screw" type="nut_2">
+            <origin xyz="15.6 110.95 -4" rpy="0 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
+        <component pkg="m3_screw" type="nut_2">
+            <origin xyz="-15.6 110.95 -4" rpy="0 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
     </step>
+
     <step>
 		<view from="300 -200 200" to="0 0 10" angle="30" />
 		<view from="300 -200 -200" to="0 0 10" angle="30" />
         <component pkg="s7_move_asm" type="motor_asm">
             <origin xyz="0 -157.4 0" rpy="0 0 -90"/>
             <move xyz="0 0 -15"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="15.6 -149.05 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 10"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="-15.6 -149.05 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 10"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="15.6 -110.95 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 10"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="-15.6 -110.95 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 10"/>
+        </component>
+        <component pkg="m3_screw" type="nut_2">
+            <origin xyz="15.6 -149.05 -4" rpy="0 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
+        <component pkg="m3_screw" type="nut_2">
+            <origin xyz="-15.6 -149.05 -4" rpy="0 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
+        <component pkg="m3_screw" type="nut_2">
+            <origin xyz="15.6 -110.95 -4" rpy="0 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
+        <component pkg="m3_screw" type="nut_2">
+            <origin xyz="-15.6 -110.95 -4" rpy="0 0 0"/>
+            <move xyz="0 0 -20"/>
         </component>
     </step>
     <step>
@@ -33,6 +158,38 @@
         <component pkg="mech_parts" type="susaj_ts4_75u">
             <origin xyz="-230 0 0" rpy="0 0 0"/>
             <move xyz="0 0 -15"/>
+        </component>
+        <component pkg="m6_screw" type="nabe_15">
+            <origin xyz="-216 28 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 30"/>
+        </component>
+        <component pkg="m6_screw" type="nabe_15">
+            <origin xyz="-216 -28 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 30"/>
+        </component>
+        <component pkg="m6_screw" type="nabe_15">
+            <origin xyz="-244 28 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 30"/>
+        </component>
+        <component pkg="m6_screw" type="nabe_15">
+            <origin xyz="-244 -28 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 30"/>
+        </component>
+        <component pkg="m6_screw" type="nut_2">
+            <origin xyz="-216 28 -2" rpy="180 0 0"/>
+            <move xyz="0 0 -25"/>
+        </component>
+        <component pkg="m6_screw" type="nut_2">
+            <origin xyz="-216 -28 -2" rpy="180 0 0"/>
+            <move xyz="0 0 -25"/>
+        </component>
+        <component pkg="m6_screw" type="nut_2">
+            <origin xyz="-244 28 -2" rpy="180 0 0"/>
+            <move xyz="0 0 -25"/>
+        </component>
+        <component pkg="m6_screw" type="nut_2">
+            <origin xyz="-244 -28 -2" rpy="180 0 0"/>
+            <move xyz="0 0 -25"/>
         </component>
     </step>
 </assembly>
