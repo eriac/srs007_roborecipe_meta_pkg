@@ -12,18 +12,28 @@
         </component>
     </step>
     <step>
-		<view from="300 200 -200" to="0 0 10" angle="30" />
-        <component pkg="s7_move_asm" type="sidewall_asm">
-            <origin xyz="0 0 -50" rpy="0 0 0"/>
-            <move xyz="0 0 -20"/>
-        </component>
-    </step>
-    <step>
 		<view from="300 200 200" to="0 0 10" angle="30" />
 		<view from="300 200 -200" to="0 0 10" angle="30" />
         <component pkg="s7_move_asm" type="bottom_asm">
             <origin xyz="0 0 -54" rpy="0 0 0"/>
-            <move xyz="0 0 -20"/>
+            <move xyz="0 0 -40"/>
+        </component>
+
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="54.5 65 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 20"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="54.5 -65 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 20"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="-115 114.5 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 20"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="-115 -114.5 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 20"/>
         </component>
     </step>
 </assembly>

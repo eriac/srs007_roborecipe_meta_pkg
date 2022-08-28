@@ -535,4 +535,29 @@
         </component>
     </step>
 
+    <step>
+		<view from="300 200 200" to="0 0 10" angle="30" />
+		<view from="300 200 -200" to="0 0 10" angle="30" />
+        <component pkg="s7_move_asm" type="sidewall_asm">
+            <origin xyz="0 0 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 20"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="63 105 0" rpy="180 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="63 -105 0" rpy="180 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="-60 123 0" rpy="180 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="-60 -123 0" rpy="180 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
+    </step>
+
 </assembly>
