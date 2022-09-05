@@ -536,6 +536,80 @@
     </step>
 
     <step>
+		<view from="100 100 200" to="0 -100 10" angle="30" />
+		<view from="100 100 -200" to="0 -100 10" angle="30" />
+        <component pkg="m3_screw" type="ffspacer_6">
+            <origin xyz="40 -60 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 10"/>
+        </component>
+        <component pkg="m3_screw" type="ffspacer_6">
+            <origin xyz="40 -102 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 10"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="40 -60 0" rpy="180 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="40 -102 0" rpy="180 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
+    </step>
+
+    <step>
+		<view from="100 100 200" to="0 -100 10" angle="30" />
+        <component pkg="elec_parts" type="bottom_motor_board">
+            <origin xyz="40 -81 11.5" rpy="0 0 0"/>
+            <move xyz="0 0 10"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="40 -60 13" rpy="0 0 0"/>
+            <move xyz="0 0 20"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="40 -102 13" rpy="0 0 0"/>
+            <move xyz="0 0 20"/>
+        </component>
+    </step>
+
+    <step>
+		<view from="100 300 200" to="0 100 10" angle="30" />
+		<view from="100 300 -200" to="0 100 10" angle="30" />
+        <component pkg="m3_screw" type="ffspacer_6">
+            <origin xyz="40 80 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 10"/>
+        </component>
+        <component pkg="m3_screw" type="ffspacer_6">
+            <origin xyz="40 122 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 10"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="40 80 0" rpy="180 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="40 122 0" rpy="180 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
+    </step>
+
+    <step>
+		<view from="100 300 200" to="0 100 10" angle="30" />
+        <component pkg="elec_parts" type="bottom_aux_board">
+            <origin xyz="40 101 11.5" rpy="0 0 0"/>
+            <move xyz="0 0 10"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="40 80 13" rpy="0 0 0"/>
+            <move xyz="0 0 20"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="40 122 13" rpy="0 0 0"/>
+            <move xyz="0 0 20"/>
+        </component>
+    </step>
+
+    <step>
 		<view from="300 200 200" to="0 0 10" angle="30" />
 		<view from="300 200 -200" to="0 0 10" angle="30" />
         <component pkg="s7_move_asm" type="sidewall_asm">
