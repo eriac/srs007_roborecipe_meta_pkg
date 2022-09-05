@@ -244,39 +244,39 @@
 		<view from="-100 -200 200" to="0 -100 10" angle="30" />
 		<view from="-100 -200 -200" to="0 -100 10" angle="30" />
         <component pkg="pololu_parts" type="roboclaw_3284">
-            <origin xyz="-10 -61 5.5" rpy="0 0 0"/>
+            <origin xyz="-15 -61 5.5" rpy="0 0 0"/>
             <move xyz="0 0 20"/>
         </component>
         <component pkg="m3_screw" type="nut_2">
-            <origin xyz="-40 -45 9" rpy="180 0 0"/>
+            <origin xyz="-45 -45 9" rpy="180 0 0"/>
             <move xyz="0 0 30"/>
         </component>
         <component pkg="m3_screw" type="nut_2">
-            <origin xyz="-40 -77 9" rpy="180 0 0"/>
+            <origin xyz="-45 -77 9" rpy="180 0 0"/>
             <move xyz="0 0 30"/>
         </component>
         <component pkg="m3_screw" type="nut_2">
-            <origin xyz="20 -45 9" rpy="180 0 0"/>
+            <origin xyz="15 -45 9" rpy="180 0 0"/>
             <move xyz="0 0 30"/>
         </component>
         <component pkg="m3_screw" type="nut_2">
-            <origin xyz="20 -77 9" rpy="180 0 0"/>
+            <origin xyz="15 -77 9" rpy="180 0 0"/>
             <move xyz="0 0 30"/>
         </component>
         <component pkg="m3_screw" type="nabe_15">
-            <origin xyz="-40 -45 0" rpy="180 0 0"/>
+            <origin xyz="-45 -45 0" rpy="180 0 0"/>
             <move xyz="0 0 -20"/>
         </component>
         <component pkg="m3_screw" type="nabe_15">
-            <origin xyz="-40 -77 0" rpy="180 0 0"/>
+            <origin xyz="-45 -77 0" rpy="180 0 0"/>
             <move xyz="0 0 -20"/>
         </component>
         <component pkg="m3_screw" type="nabe_15">
-            <origin xyz="20 -45 0" rpy="180 0 0"/>
+            <origin xyz="15 -45 0" rpy="180 0 0"/>
             <move xyz="0 0 -20"/>
         </component>
         <component pkg="m3_screw" type="nabe_15">
-            <origin xyz="20 -77 0" rpy="180 0 0"/>
+            <origin xyz="15 -77 0" rpy="180 0 0"/>
             <move xyz="0 0 -20"/>
         </component>
     </step>

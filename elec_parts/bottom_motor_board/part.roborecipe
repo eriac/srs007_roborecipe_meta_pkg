@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>bottom_motor_board</name>
+    <version>0.0</version>
+    <stl_file>bottom_motor_board/akizuki_d_2hole.stl</stl_file>
+    <price>0.0</price>
+    <distributor>electric board</distributor>
+    <description>motor connection board on bottom plate</description>
+</part>
