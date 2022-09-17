@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>led_base</name>
+    <version>0.0</version>
+    <stl_file>led_base/led_base.stl</stl_file>
+    <price>0.0</price>
+    <distributor></distributor>
+    <description>3d print for led base</description>
+</part>

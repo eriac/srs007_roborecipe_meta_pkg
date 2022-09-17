@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>dcdc12v</name>
+    <version>0.0</version>
+    <stl_file>dcdc12v/dcdc12v.stl</stl_file>
+    <price>988.0</price>
+    <distributor>https://www.amazon.co.jp/gp/product/B06Y59QXFN</distributor>
+    <description>voltage converter to 12V</description>
+</part>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+    <name>led_asm</name>
+    <descrption>
+        assembly
+    </descrption>
+    <step>
+		<view from="50 50 50" to="0 0 0" angle="30" />
+        <component pkg="s7_3d_print_parts" type="led_base">
+            <origin xyz="0 0 0" rpy="180 0 0"/>
+            <move xyz="0 0 -20"/>
+        </component>
+    </step>
+    <step>
+		<view from="50 50 -50" to="0 0 0" angle="30" />
+        <component pkg="elec_parts" type="ws2812b_board">
+            <origin xyz="1 0 -7" rpy="0 135 0"/>
+            <move xyz="20 0 -20"/>
+        </component>
+    </step>
+</assembly>

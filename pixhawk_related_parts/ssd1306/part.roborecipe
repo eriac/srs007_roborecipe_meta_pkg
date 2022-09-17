@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>ssd1306</name>
+    <version>0.0</version>
+    <stl_file>ssd1306/ssd1306.stl</stl_file>
+    <price>580.0</price>
+    <distributor>https://akizukidenshi.com/catalog/g/gP-12031/</distributor>
+    <description>small lcd display</description>
+</part>

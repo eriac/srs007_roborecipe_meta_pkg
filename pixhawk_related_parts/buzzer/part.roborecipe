@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>buzzer</name>
+    <version>0.0</version>
+    <stl_file>buzzer/buzzer.stl</stl_file>
+    <price>0.0</price>
+    <distributor>none</distributor>
+    <description>set part</description>
+</part>

@@ -634,4 +634,128 @@
         </component>
     </step>
 
+    <step>
+		<view from="0 -200 100" to="-100 -100 0" angle="30" />
+		<view from="0 -200 -100" to="-100 -100 0" angle="30" />
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="-75 -110 0" rpy="180 0 0"/>
+            <move xyz="0 0 -25"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="-119 -110 0" rpy="180 0 0"/>
+            <move xyz="0 0 -25"/>
+        </component>
+        <component pkg="m3_screw" type="ffspacer_6">
+            <origin xyz="-75 -110 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 20"/>
+        </component>
+        <component pkg="m3_screw" type="ffspacer_6">
+            <origin xyz="-119 -110 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 20"/>
+        </component>
+    </step>
+    <step>
+		<view from="0 -200 100" to="-100 -100 0" angle="30" />
+        <component pkg="elec_parts" type="dcdc12v">
+            <origin xyz="-97 -110 11.5" rpy="0 0 0"/>
+            <move xyz="0 0 10"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="-75 -110 13" rpy="0 0 0"/>
+            <move xyz="0 0 25"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_6">
+            <origin xyz="-119 -110 13" rpy="0 0 0"/>
+            <move xyz="0 0 25"/>
+        </component>
+    </step>
+
+    <step>
+		<view from="-100 200 100" to="-180 100 0" angle="30" />
+        <component pkg="s7_move_asm" type="sonar_asm">
+            <origin xyz="-182 96 5.5" rpy="0 0 180"/>
+            <move xyz="0 0 20"/>
+        </component>
+    </step>
+    <step>
+		<view from="-100 200 -100" to="-180 100 0" angle="30" />
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="-177 117 0" rpy="180 0 0"/>
+            <move xyz="0 0 -25"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="-177 75 0" rpy="180 0 0"/>
+            <move xyz="0 0 -25"/>
+        </component>
+    </step>
+
+    <step>
+		<view from="-100 -200 100" to="-180 -100 0" angle="30" />
+        <component pkg="s7_move_asm" type="sonar_asm">
+            <origin xyz="-182 -96 5.5" rpy="0 0 180"/>
+            <move xyz="0 0 20"/>
+        </component>
+    </step>
+    <step>
+		<view from="-100 -200 -100" to="-180 -100 0" angle="30" />
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="-177 -117 0" rpy="180 0 0"/>
+            <move xyz="0 0 -25"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_10">
+            <origin xyz="-177 -75 0" rpy="180 0 0"/>
+            <move xyz="0 0 -25"/>
+        </component>
+    </step>
+
+    <step>
+		<view from="200 150 -100" to="100 130 0" angle="30" />
+		<view from="200 150 100" to="100 130 0" angle="30" />
+        <component pkg="s7_move_asm" type="led_asm">
+            <origin xyz="91.8 131.1 0" rpy="0 0 55"/>
+            <move xyz="0 0 -20"/>
+        </component>
+        <component pkg="m3_screw" type="tapping_10">
+            <origin xyz="104.1 122.5 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 25"/>
+        </component>
+        <component pkg="m3_screw" type="tapping_10">
+            <origin xyz="79.5 139.7 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 25"/>
+        </component>
+    </step>
+
+    <step>
+		<view from="200 -150 -100" to="100 -130 0" angle="30" />
+		<view from="200 -150 100" to="100 -130 0" angle="30" />
+        <component pkg="s7_move_asm" type="led_asm">
+            <origin xyz="91.8 -131.1 0" rpy="0 0 -55"/>
+            <move xyz="0 0 -20"/>
+        </component>
+        <component pkg="m3_screw" type="tapping_10">
+            <origin xyz="104.1 -122.5 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 25"/>
+        </component>
+        <component pkg="m3_screw" type="tapping_10">
+            <origin xyz="79.5 -139.7 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 25"/>
+        </component>
+    </step>
+
+    <step>
+		<view from="-200 -150 -100" to="-100 0 0" angle="30" />
+		<view from="-200 -150 100" to="-100 0 0" angle="30" />
+        <component pkg="s7_move_asm" type="led_asm">
+            <origin xyz="-125 0 0" rpy="0 0 180"/>
+            <move xyz="0 0 -20"/>
+        </component>
+        <component pkg="m3_screw" type="tapping_10">
+            <origin xyz="-125 15 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 25"/>
+        </component>
+        <component pkg="m3_screw" type="tapping_10">
+            <origin xyz="-125 -15 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 25"/>
+        </component>
+    </step>
 </assembly>

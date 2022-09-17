@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>ws2812b_board</name>
+    <version>0.0</version>
+    <stl_file>ws2812b_board/ws2812b_board.stl</stl_file>
+    <price>500</price>
+    <distributor>https://akizukidenshi.com/catalog/g/gM-14307/</distributor>
+    <description>ws2812b x8 board</description>
+</part>
