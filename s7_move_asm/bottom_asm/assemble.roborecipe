@@ -35,9 +35,17 @@
             <origin xyz="-8 -30 0" rpy="180 0 0"/>
             <move xyz="0 0 -20"/>
         </component>
-    </step>
+    </step> -->
 
-    <step>
+    <!-- <step>
+		<view from="150 100 100" to="0 0 10" angle="30" />
+	    <component pkg="pixhawk_related_parts" type="i2c_splitter">
+            <origin xyz="22 32.0 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 20"/>
+        </component>
+    </step> -->
+
+    <!-- <step>
 		<view from="100 150 200" to="0 100 20" angle="30" />
 		<view from="100 150 -200" to="0 100 -20" angle="30" />
         <component pkg="m3_screw" type="ffspacer_6">
@@ -610,6 +618,14 @@
     </step>
 
     <step>
+		<view from="-50 150 100" to="-150 70 10" angle="30" />
+        <component pkg="pixhawk_related_parts" type="i2c_splitter">
+            <origin xyz="-150 70 5.5" rpy="0 0 0"/>
+            <move xyz="0 0 20"/>
+        </component>
+    </step>
+
+    <step>
 		<view from="300 200 200" to="0 0 10" angle="30" />
 		<view from="300 200 -200" to="0 0 10" angle="30" />
         <component pkg="s7_move_asm" type="sidewall_asm">
@@ -654,7 +670,7 @@
             <move xyz="0 0 20"/>
         </component>
     </step>
-    <step>
+    <!-- <step>
 		<view from="0 -200 100" to="-100 -100 0" angle="30" />
         <component pkg="elec_parts" type="dcdc12v">
             <origin xyz="-97 -110 11.5" rpy="0 0 0"/>
@@ -757,5 +773,5 @@
             <origin xyz="-125 -15 5.5" rpy="0 0 0"/>
             <move xyz="0 0 25"/>
         </component>
-    </step>
+    </step> -->
 </assembly>

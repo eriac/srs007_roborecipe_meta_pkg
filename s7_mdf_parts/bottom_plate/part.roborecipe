@@ -3,7 +3,7 @@
     <name>bottom_plate</name>
     <version>0.0</version>
     <stl_file>bottom_plate/bottom_plate.stl</stl_file>
-    <price>0.0</price>
-    <distributor></distributor>
+    <price>500.0</price>
+    <distributor>https://github.com/project-srs/ArduRover01_design/blob/main/laser_cut/bottom_plate.dxf</distributor>
     <description>laser cut with MDF 5.5mm</description>
 </part>

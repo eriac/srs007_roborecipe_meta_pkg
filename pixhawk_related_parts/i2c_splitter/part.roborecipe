@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>i2c_splitter</name>
+    <version>0.0</version>
+    <stl_file>i2c_splitter/i2c_splitter.stl</stl_file>
+    <price>108.0</price>
+    <distributor>https://ja.aliexpress.com/item/32815613227.html</distributor>
+    <description>i2c bus splitter</description>
+</part>

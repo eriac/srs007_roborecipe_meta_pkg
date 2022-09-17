@@ -3,7 +3,7 @@
     <name>bumper_a</name>
     <version>0.0</version>
     <stl_file>bumper_a/bumper_a.stl</stl_file>
-    <price>0.0</price>
-    <distributor></distributor>
+    <price>100.0</price>
+    <distributor>https://github.com/project-srs/ArduRover01_design/blob/main/laser_cut/front_bumper/bumpr_a.dxf</distributor>
     <description>laser cut with MDF 4mm</description>
 </part>

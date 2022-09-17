@@ -3,7 +3,7 @@
     <name>sidewall_plate2R</name>
     <version>0.0</version>
     <stl_file>sidewall_plate2R/plate2R.stl</stl_file>
-    <price>0.0</price>
-    <distributor></distributor>
+    <price>200.0</price>
+    <distributor>https://github.com/project-srs/ArduRover01_design/blob/main/laser_cut/sidewall/sidewall_2R.dxf</distributor>
     <description>laser cut with MDF 4mm</description>
 </part>
