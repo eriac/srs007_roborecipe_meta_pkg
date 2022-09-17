@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+    <name>compass_asm</name>
+    <descrption>
+        assembly
+    </descrption>
+    <step>
+		<view from="100 100 50" to="0 0 0" angle="30" />
+        <component pkg="s7_mdf_parts" type="compass_plate">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <move xyz="0 0 0"/>
+        </component>
+    </step>
+    <step>
+		<view from="100 100 50" to="0 0 0" angle="30" />
+        <component pkg="pixhawk_related_parts" type="gps_module">
+            <origin xyz="0 0 4" rpy="0 0 0"/>
+            <move xyz="0 0 20"/>
+        </component>
+    </step>
+
+    <step>
+		<view from="100 100 50" to="0 0 -20" angle="30" />
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="35 50 4" rpy="0 0 0"/>
+            <move xyz="0 0 15"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="35 -50 4" rpy="0 0 0"/>
+            <move xyz="0 0 15"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="-10 50 4" rpy="0 0 0"/>
+            <move xyz="0 0 15"/>
+        </component>
+        <component pkg="m3_screw" type="nabe_8">
+            <origin xyz="-10 -50 4" rpy="0 0 0"/>
+            <move xyz="0 0 15"/>
+        </component>
+
+        <component pkg="m3_screw" type="hspacer_30">
+            <origin xyz="35 50 -30" rpy="0 0 0"/>
+            <move xyz="0 0 -15"/>
+        </component>
+        <component pkg="m3_screw" type="hspacer_30">
+            <origin xyz="35 -50 -30" rpy="0 0 0"/>
+            <move xyz="0 0 -15"/>
+        </component>
+        <component pkg="m3_screw" type="hspacer_30">
+            <origin xyz="-10 50 -30" rpy="0 0 0"/>
+            <move xyz="0 0 -15"/>
+        </component>
+        <component pkg="m3_screw" type="hspacer_30">
+            <origin xyz="-10 -50 -30" rpy="0 0 0"/>
+            <move xyz="0 0 -15"/>
+        </component>
+    </step>
+</assembly>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>intel_nuc</name>
+    <version>0.0</version>
+    <stl_file>intel_nuc/intel_nuc.stl</stl_file>
+    <price>32978.0</price>
+    <distributor>https://shop.tsukumo.co.jp/goods/0735858431095/</distributor>
+    <description>intel nuc NUC10i3FNH</description>
+</part>

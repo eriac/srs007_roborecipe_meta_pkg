@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>gps_module</name>
+    <version>0.0</version>
+    <stl_file>gps_module/gps_module.stl</stl_file>
+    <price>2094.0</price>
+    <distributor>https://ja.aliexpress.com/item/1005001971960895.html</distributor>
+    <description>M8N gps module with compass</description>
+</part>

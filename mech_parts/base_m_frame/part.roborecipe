@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>base_m_frame</name>
+    <version>0.0</version>
+    <stl_file>base_m_frame/base_m_frame.stl</stl_file>
+    <price>4000</price>
+    <distributor>misumi 5 series frame</distributor>
+    <description>misumi frame assemble</description>
+</part>
