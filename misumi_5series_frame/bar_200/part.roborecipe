@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>bar_200</name>
+    <version>0.0</version>
+    <stl_file>bar_200/frame5_200.stl</stl_file>
+    <price>250.0</price>
+    <distributor>https://jp.misumi-ec.com/vona2/detail/110302683830/</distributor>
+    <description>misumi frame 5 seriel 200mm bar</description>
+</part>

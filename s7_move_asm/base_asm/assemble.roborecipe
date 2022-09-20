@@ -239,7 +239,7 @@
 
     <step>
 		<view from="150 250 200" to="-50 0 0" angle="30" />
-		<component pkg="mech_parts" type="base_m_frame">
+		<component pkg="s7_move_asm" type="frame_asm">
             <origin xyz="-40 0 5.5" rpy="0 0 0"/>
             <move xyz="0 0 30"/>
         </component>

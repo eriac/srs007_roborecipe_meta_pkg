@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <name>bracket</name>
+    <version>0.0</version>
+    <stl_file>bracket/frame5_bracket.stl</stl_file>
+    <price>109.0</price>
+    <distributor>https://jp.misumi-ec.com/vona2/detail/110302245360/</distributor>
+    <description>misumi frame 5 seriel bracket</description>
+</part>
